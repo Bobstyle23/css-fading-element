@@ -4,6 +4,7 @@ div {
   background: black;
   margin: 50px auto;
   border-radius: 5px;
+  position: relative;
 }
 
 #rect {
@@ -14,11 +15,17 @@ div {
 @keyframes rainbow {
   0% {
     background-color: blue;
+    top: 0px;
+    left: 0px;
   }
   50% {
     background-color: green;
+    top: 50px;
+    left: 25px;
   }
   100% {
     background-color: yellow;
+    top: 0px;
+    left: -25px;
   }
 }
